@@ -1,0 +1,79 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Absolute Black Background for the Page */
+  body {
+    background-color: #000000; /* Absolute black */
+    color: #e0e0e0;
+    font-family: 'Fira Mono', monospace; /* Terminal-like font */
+    line-height: 1.6;
+  }
+  
+  /* Full-Height Container with Max Width */
+  .container {
+    min-height: 100vh; /* Full viewport height */
+    max-width: 800px; /* Max width for content */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Padding inside the container */
+    background-color: #1a1a1a; /* Container background */
+    border-left: 1px solid #333; /* Outline on the left */
+    border-right: 1px solid #333; /* Outline on the right */
+  }
+  
+  /* Header */
+  header {
+    margin-bottom: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.2rem; /* Slightly larger font size */
+    position: relative;
+  }
+  
+  /* Underline Animation */
+  nav a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.5); /* 50% opacity underline */
+    transition: background-color 0s; /* Instant switch */
+  }
+  
+  /* Hover and Selected State */
+  nav a:hover::after,
+  nav a:focus::after,
+  nav a.active::after {
+    background-color: rgba(255, 255, 255, 1); /* Fully visible underline */
+  }
+  
+  /* Main Content */
+  main {
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 2.8rem; /* Larger font size */
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  p {
+    font-size: 1.2rem; /* Slightly larger font size */
+    margin-bottom: 20px;
+  }
