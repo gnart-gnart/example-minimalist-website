@@ -80,15 +80,16 @@ p {
 
 /* Blog Post Styling */
 .blog-post {
-  background-color: #2a2a2a; /* Slightly lighter gray background */
+  background-color: #000000; /* Slightly lighter gray background */
   padding: 15px; /* Padding inside the blog post */
   margin-bottom: 20px; /* Margin between blog posts */
+  border: 1px solid #333;
 }
 
 /* Optional: Add extra margin for <br> tags if needed */
 .blog-post p br {
   display: block; /* Treat <br> as a block element */
-  margin-bottom: 10px; /* Add extra space after each <br> */
+  margin-bottom: 12px; /* Add extra space after each <br> */
 }
 
 .blog-post h2 {
