@@ -83,7 +83,6 @@ p {
   background-color: #2a2a2a; /* Slightly lighter gray background */
   padding: 15px; /* Padding inside the blog post */
   margin-bottom: 20px; /* Margin between blog posts */
-  border: 0px solid #333; /* Border around the blog post */
 }
 
 .blog-post h2 {
