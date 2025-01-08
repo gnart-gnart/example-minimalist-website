@@ -85,6 +85,12 @@ p {
   margin-bottom: 20px; /* Margin between blog posts */
 }
 
+/* Optional: Add extra margin for <br> tags if needed */
+.blog-post p br {
+  display: block; /* Treat <br> as a block element */
+  margin-bottom: 10px; /* Add extra space after each <br> */
+}
+
 .blog-post h2 {
   font-size: 2rem; /* Smaller than h1 */
   margin-bottom: 10px; /* Space below the title */
