@@ -8,7 +8,7 @@
 /* Absolute Black Background for the Page */
 body {
   background-color: black; /* Absolute black */
-  color: #2aff5f;
+  color: #e0e0e0;
   font-family: 'Fira Mono', monospace; /* Terminal-like font */
   line-height: 1.6;
 }
