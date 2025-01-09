@@ -7,7 +7,7 @@
 
 /* Absolute Black Background for the Page */
 body {
-  background-color: midnightblue; /* Absolute black */
+  background-color: black; /* Absolute black */
   color: #e0e0e0;
   font-family: 'Fira Mono', monospace; /* Terminal-like font */
   line-height: 1.6;
@@ -19,7 +19,7 @@ body {
   max-width: 800px; /* Max width for content */
   margin: 0 auto; /* Center horizontally */
   padding: 20px; /* Padding inside the container */
-  background-color: #1a1a1a; /* Container background */
+  background-color: darkslategray;/*1a1a1a; /* Container background */
   border-left: 1px solid #333; /* Outline on the left */
   border-right: 1px solid #333; /* Outline on the right */
 }
