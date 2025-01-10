@@ -7,7 +7,7 @@
 
 /* Absolute Black Background for the Page */
 body {
-  background-color: rgb(35, 0, 0); /* Absolute black */
+  background-color: black;
   color: #e0e0e0;
   font-family: 'Fira Mono', monospace; /* Terminal-like font */
   line-height: 1.6;
@@ -19,9 +19,9 @@ body {
   max-width: 800px; /* Max width for content */
   margin: 0 auto; /* Center horizontally */
   padding: 20px; /* Padding inside the container */
-  background-color: #360000; /* Container background */
-  border-left: 1px solid #600000; /* Outline on the left */
-  border-right: 1px solid #600000; /* Outline on the right */
+  background-color: #111; /* Container background */
+  border-left: 1px solid #333; /* Outline on the left */
+  border-right: 1px solid #333; /* Outline on the right */
 }
 
 /* Header */
@@ -51,7 +51,7 @@ nav a::after {
   bottom: -5px;
   width: 100%;
   height: 2px;
-  background-color: #600000; /* 50% opacity underline */
+  background-color: #333; /* 50% opacity underline */
   transition: background-color 0s; /* Instant switch */
 }
 
@@ -80,10 +80,10 @@ p {
 
 /* Blog Post Styling */
 .blog-post {
-  background-color: rgb(35, 0, 0); /* Slightly lighter gray background */
+  background-color: black; /* Slightly lighter gray background */
   padding: 15px; /* Padding inside the blog post */
   margin-bottom: 20px; /* Margin between blog posts */
-  border: 1px solid #600000;
+  border: 1px solid #333;
 }
 
 /* Optional: Add extra margin for <br> tags if needed */
